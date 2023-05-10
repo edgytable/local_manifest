@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<manifest>
+
+  
+
+<remote name="Coptan" fetch="https://github.com/OmarAlCoptan" />
+
+<remote name="EvoX" fetch="https://github.com/Evolution-X" />
+
+<remote name="EvoX-Devices" fetch="https://github.com/Evolution-X-Devices" />
+
+<remote name="clang" fetch="https://gitlab.com/Amritorock" />
+
+<!--============Trees============-->
+
+  <project path="device/xiaomi/lavender" name="device_xiaomi_lavender" remote="EvoX-Devices" revision="tiramisu" />
+
+  <project path="vendor/xiaomi/lavender" name="vendor_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
+
+  <project path="kernel/xiaomi/lavender" name="kernel_xiaomi_lavender" remote="Coptan" revision="tiramisu" />
