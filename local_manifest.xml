@@ -7,6 +7,6 @@
 
 <!--============Trees============-->
 
-  <project path="device/asus/X00TD" name="device_xiaomi_lavender" remote="edgy" revision="edgy" />
-  <project path="vendor/asus/" name="vendor_xiaomi_lavender" remote="edgy" revision="edgy" />
-  <project path="kernel/asus/sdm660" name="kernel_xiaomi_lavender" remote="thirteen-x00td" revision="pede" />
+  <project path="device/asus/X00TD" name="device_asus_X00TD" remote="edgy" revision="main" />
+  <project path="vendor/asus/" name="vendor_asus_X00TD" remote="edgy" revision="13" />
+  <project path="kernel/asus/sdm660" name="kernel_asus_sdm660" remote="thirteen-x00td" revision="pede" />
